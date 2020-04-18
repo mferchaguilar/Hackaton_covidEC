@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def multilevel_webpage(request):
+    return render(request, 'index.html', {})
