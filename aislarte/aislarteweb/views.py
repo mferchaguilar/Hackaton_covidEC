@@ -3,4 +3,5 @@ from django.http import HttpResponse
 
 def aislarteweb(response):
     return render(response, 'index.html', {})
-# Create your views here.
+def music(request):
+    return render(request, 'music.html', {})

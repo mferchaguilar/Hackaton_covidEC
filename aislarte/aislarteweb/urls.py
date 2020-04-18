@@ -3,4 +3,5 @@ from aislarteweb import views
 
 urlpatterns = [
     path('', views.aislarteweb, name='aislarteweb'),
+    path('music/', views.music, name='music'),
 ]
