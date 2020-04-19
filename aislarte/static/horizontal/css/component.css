@@ -102,6 +102,7 @@
 
 /* Submenu style */
 .cbp-hssubmenu {
+	background-color: #f7f7f7;
 	position: absolute;
 	left: 0;
 	top: 100%;
